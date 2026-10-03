@@ -4,7 +4,7 @@ Single-page bilingual (Arabic / English) website for Abraj International – Gen
 
 ## Files
 - `index.html` – the whole site (HTML + CSS + JS)
-- `assets/logo.jpg` – company logo
+- (logo is embedded inside `index.html`)
 
 ## Publish with GitHub Pages
 1. Upload all files to a repository (keep `index.html` at the root).
