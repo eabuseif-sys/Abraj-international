@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>شركة الأبراج العالمية | Abraj International</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;800&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#f6f7f9;--card:#fff;--ink:#1f2630;--mute:#5d6877;--blue:#2f6bc0;--blue-d:#234f92;--line:#dde2e9;--soft:#eaf1fb;
+box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#10151c;--card:#18202a;--ink:#eef1f5;--mute:#a3adba;--blue:#5b94e6;--blue-d:#7aa9ee;--line:#2a3441;--soft:#16263d}}
+html{scroll-behavior:smooth;scroll-padding-top:70px}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:'Cairo',system-ui,Tahoma,Arial,sans-serif;line-height:1.8;font-size:17px}
+html[lang=ar] .en,html[lang=en] .ar{display:none!important}
+a{color:inherit;text-decoration:none}
+.wrap{max-width:1040px;margin:0 auto;padding:0 20px}
+header{position:sticky;top:env(safe-area-inset-top,0px);z-index:5;background:var(--card);border-bottom:1px solid var(--line)}
+header .wrap{display:flex;align-items:center;justify-content:space-between;height:60px;gap:12px}
+nav{display:flex;gap:22px;font-weight:600;font-size:15px}
+nav a:hover{color:var(--blue)}
+.lang{border:1.5px solid var(--blue);color:var(--blue);background:none;border-radius:8px;padding:2px 14px;font:600 14px 'Cairo',sans-serif;cursor:pointer}
+.lang:hover{background:var(--blue);color:#fff}
+a:focus-visible,button:focus-visible{outline:3px solid var(--blue);outline-offset:2px}
+.hero{padding:48px 0 56px;text-align:center}
+.logo{display:inline-block;background:#fafafa;border-radius:20px;padding:12px 22px;border:1px solid var(--line)}
+.logo img{display:block;width:min(260px,64vw);height:auto}
+h1{font-size:clamp(30px,6vw,52px);line-height:1.25;margin:22px 0 2px;font-weight:800}
+.sub{font-size:clamp(18px,3vw,24px);color:var(--blue);font-weight:600;margin:0 0 14px;direction:ltr}
+html[lang=en] .sub{direction:rtl;color:var(--mute);font-weight:400}
+.lead{max-width:600px;margin:0 auto 26px;color:var(--mute)}
+.btns{display:flex;gap:12px;justify-content:center;flex-wrap:wrap}
+.btn{display:inline-flex;align-items:center;gap:8px;padding:11px 24px;border-radius:10px;font-weight:600;border:2px solid var(--blue);background:var(--blue);color:#fff}
+.btn:hover{background:var(--blue-d);border-color:var(--blue-d)}
+.btn.alt{background:none;color:var(--blue)}
+.btn.alt:hover{background:var(--soft)}
+.btn.wa{background:#1e9e55;border-color:#1e9e55}
+.btn.wa:hover{background:#187f44}
+section{padding:56px 0;border-top:1px solid var(--line)}
+h2{font-size:28px;margin:0 0 6px;font-weight:800}
+h2::after{content:"";display:block;width:48px;height:4px;background:var(--blue);border-radius:2px;margin-top:6px}
+.about p{max-width:720px;color:var(--mute);margin:16px 0 0}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:16px;margin-top:26px}
+.item{background:var(--card);border:1px solid var(--line);border-inline-start:4px solid var(--blue);border-radius:10px;padding:18px 20px}
+.item h3{margin:0 0 4px;font-size:19px}
+.item p{margin:0;color:var(--mute);font-size:15px;line-height:1.7}
+.contact .box{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:16px;margin-top:26px}
+.c{background:var(--card);border:1px solid var(--line);border-radius:10px;padding:20px}
+.c b{display:block;margin-bottom:4px}
+.c .num{direction:ltr;unicode-bidi:isolate;display:inline-block;font-size:22px;font-weight:800;color:var(--blue)}
+.c .btns{justify-content:flex-start;margin-top:12px}
+footer{background:var(--card);border-top:1px solid var(--line);padding:22px 0;text-align:center;color:var(--mute);font-size:14px}
+@media(max-width:640px){nav{display:none}}
+</style>
+</head>
+<body>
+<header><div class="wrap">
+<strong><span class="ar">الأبراج العالمية</span><span class="en">Abraj International</span></strong>
+<nav>
+<a href="#about"><span class="ar">من نحن</span><span class="en">About</span></a>
+<a href="#services"><span class="ar">خدماتنا</span><span class="en">Services</span></a>
+<a href="#contact"><span class="ar">تواصل معنا</span><span class="en">Contact</span></a>
+</nav>
+<button class="lang" id="lang" type="button" aria-label="Language"><span class="ar">English</span><span class="en">العربية</span></button>
+</div></header>
+
+<main>
+<div class="wrap hero">
+<div class="logo"><img src="assets/logo.jpg" alt="شعار الأبراج العالمية | Abraj International logo"></div>
+<h1><span class="ar">شركة الأبراج العالمية</span><span class="en">Abraj International</span></h1>
+<p class="sub"><span class="ar">Abraj International</span><span class="en">General Contracting &amp; Real Estate Investment</span></p>
+<p class="lead"><span class="ar">للمقاولات العامة والاستثمار العقاري — مصراتة، ليبيا. نبني بجودة، ونستثمر بثقة.</span><span class="en">Based in Misrata, Libya. We build with quality and invest with confidence.</span></p>
+<div class="btns">
+<a class="btn wa" href="https://wa.me/218918885565" target="_blank" rel="noopener"><span class="ar">راسلنا عبر واتساب</span><span class="en">Chat on WhatsApp</span></a>
+<a class="btn alt" href="tel:+218918885565"><span class="ar">اتصل بنا</span><span class="en">Call us</span></a>
+</div>
+</div>
+
+<section id="about" class="about"><div class="wrap">
+<h2><span class="ar">من نحن</span><span class="en">About us</span></h2>
+<p class="ar">شركة الأبراج العالمية للمقاولات العامة والاستثمار العقاري شركة ليبية مقرها مدينة مصراتة. نعمل في تنفيذ المشاريع الإنشائية وتطوير العقارات، ونلتزم بالجودة والدقة في المواعيد والشفافية مع عملائنا.</p>
+<p class="en">Abraj International for General Contracting and Real Estate Investment is a Libyan company based in Misrata. We deliver construction projects and develop real estate, with a commitment to quality, on-time delivery and transparency with our clients.</p>
+</div></section>
+
+<section id="services"><div class="wrap">
+<h2><span class="ar">خدماتنا</span><span class="en">Our services</span></h2>
+<div class="grid">
+<div class="item"><h3><span class="ar">المقاولات العامة</span><span class="en">General contracting</span></h3><p><span class="ar">تنفيذ المباني السكنية والتجارية والمشاريع الإنشائية.</span><span class="en">Residential, commercial and construction projects.</span></p></div>
+<div class="item"><h3><span class="ar">الاستثمار العقاري</span><span class="en">Real estate investment</span></h3><p><span class="ar">تطوير العقارات واستثمارها وفق دراسات واضحة.</span><span class="en">Developing and investing in property, based on clear studies.</span></p></div>
+<div class="item"><h3><span class="ar">التشطيبات والصيانة</span><span class="en">Finishing &amp; maintenance</span></h3><p><span class="ar">أعمال التشطيب والتجديد وصيانة المباني.</span><span class="en">Finishing, renovation and building maintenance.</span></p></div>
+<div class="item"><h3><span class="ar">إدارة المشاريع</span><span class="en">Project management</span></h3><p><span class="ar">متابعة التنفيذ والتكاليف والجدول الزمني.</span><span class="en">Overseeing execution, costs and schedules.</span></p></div>
+</div>
+</div></section>
+
+<section id="contact" class="contact"><div class="wrap">
+<h2><span class="ar">تواصل معنا</span><span class="en">Contact us</span></h2>
+<div class="box">
+<div class="c"><b><span class="ar">الهاتف / واتساب</span><span class="en">Phone / WhatsApp</span></b>
+<a class="num" href="tel:+218918885565">+218 91 888 5565</a>
+<div class="btns"><a class="btn wa" href="https://wa.me/218918885565" target="_blank" rel="noopener"><span class="ar">واتساب</span><span class="en">WhatsApp</span></a><a class="btn alt" href="tel:+218918885565"><span class="ar">اتصال</span><span class="en">Call</span></a></div></div>
+<div class="c"><b><span class="ar">البريد الإلكتروني</span><span class="en">Email</span></b>
+<a class="num" style="font-size:19px;overflow-wrap:anywhere" href="mailto:info@abrajintl.com">info@abrajintl.com</a>
+<div class="btns"><a class="btn alt" href="mailto:info@abrajintl.com"><span class="ar">أرسل رسالة</span><span class="en">Send an email</span></a></div></div>
+<div class="c"><b><span class="ar">الموقع</span><span class="en">Location</span></b>
+<span class="ar">مدينة مصراتة، ليبيا</span><span class="en">Misrata, Libya</span>
+<div class="btns"><a class="btn" href="https://www.google.com/maps?q=32.373417,15.092333" target="_blank" rel="noopener"><span class="ar">افتح في خرائط جوجل</span><span class="en">Open in Google Maps</span></a></div></div>
+</div>
+</div></section>
+</main>
+
+<footer><div class="wrap">© <span id="y"></span> <span class="ar">شركة الأبراج العالمية للمقاولات العامة والاستثمار العقاري</span><span class="en">Abraj International – General Contracting &amp; Real Estate Investment</span></div></footer>
+
+<script>
+document.getElementById('y').textContent=new Date().getFullYear();
+var h=document.documentElement;
+document.getElementById('lang').onclick=function(){
+var en=h.lang==='ar';h.lang=en?'en':'ar';h.dir=en?'ltr':'rtl';document.title=en?'Abraj International':'شركة الأبراج العالمية | Abraj International';
+};
+</script>
+</body>
+</html>
